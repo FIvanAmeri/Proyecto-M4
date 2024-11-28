@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root{
+    --primary-color: #E5D9F2;
+    --secondary-color: #F5EFFF;
+    --tertiary-color: #CDC1FF;
+    --quaternary-color: #A594F9;
+}
+
+body{
+   @apply bg-tertiary flex flex-col min-h-screen;
+}
+
+.container{
+    @apply mx-auto max-w-[10/12];
+   
+}
+
+.register-container {
+    @apply mx-auto max-w-[30rem] mb-6;
+}
+
+  
+.login-container{
+    @apply mx-auto max-w-[30rem] h-[20rem];
+}
+
+  .custom-shadow {
+    box-shadow: 0 4px 20px 10px rgba(165, 148, 249, 0.5);
+  }
+
+footer {
+    @apply mt-auto
+}
+
+h1,
+h4,
+h5,
+h6 {
+    @apply font-mono text-primary font-bold;
+   
+}
+
+h2 {
+    @apply font-mono text-black font-bold;
+}
+
+h3{
+    @apply font-mono text-quaternary font-bold;
+}
+
+.bg-hero {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0WNhs1Pdz3Zuvr-7YidhvbqWeu_VjcNevLKPya17ZzdtmA-dI5n1Yzf2Mfdj464IUPqqzlvU5nGtq3VrsgDhAytrKhbaYH6ThqoRykqHhmqFN7SIpxKFp3i3zEwb96JYEDfbbqbO4f18M/s1600/10+Ejemplos+de+pruebas+de+aplicaciones+para+celular+400.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-commerce{
+    background-image: url('https://img.freepik.com/fotos-premium/tienda-electronica-techsavvy_1167636-8638.jpg?semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+

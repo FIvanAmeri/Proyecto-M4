@@ -1,0 +1,7 @@
+.card__primary{
+  background-color: var(--primary-color);
+}
+
+.card__secondary{
+  background-color: var(--secondary-color);
+}
